@@ -226,7 +226,7 @@
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
-            <build>
+            <!-- <build>
                 <plugins>
                     <plugin>
                         <groupId>com.github.eirslett</groupId>
@@ -286,7 +286,7 @@
                         </executions>
                     </plugin>
                 </plugins>
-            </build>
+            </build> -->
         </profile>
     </profiles>
 </project>
