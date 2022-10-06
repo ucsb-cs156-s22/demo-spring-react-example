@@ -8,6 +8,7 @@ FROM maven:3.8.6-amazoncorretto-17
 WORKDIR /app
 COPY . /app
 ENV PRODUCTION true
+ENV PORT 80
 ENV SERVER_PORT 80
 RUN mvn compile
 COPY --from=0 /frontend/build /app/target/classes/public
